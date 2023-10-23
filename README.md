@@ -1,3 +1,2 @@
-# Openai Embedding TPM Estimator
-
+# Token splitting estimator for the Openai Embedding
 
