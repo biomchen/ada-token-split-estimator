@@ -1,0 +1,3 @@
+# Openai Embedding TPM Estimator
+
+
