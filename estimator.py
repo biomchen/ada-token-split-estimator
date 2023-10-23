@@ -60,3 +60,8 @@ class DocSplitEstimator(DataLoader, Configs):
             else:
                 right = self.mid - 1
         return -1
+    
+
+if __name__ == "__main__":
+    dse = DocSplitEstimator()
+    dse.estimate_n_docs()
