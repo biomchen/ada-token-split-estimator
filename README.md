@@ -13,11 +13,28 @@ When applying Openai embedding model `text-embedding-ada-002` to any textual con
 
 To avoid to hit the rate limit to prevent the embedding operation stalling, here is a simple python code snippets to help estimate how many docs will reach the rate limit of the TPM by apply the binary search algorithm.
 
-#### Note
-You have to define your config file and will loaded in the function below:
+### Pre-requisite
+1. Prepare your own documentation in the designated folder
+2. Define your personal configuration and load the config file in the function below:
 ```python
 def get_config_path():
     cwd = os.getcwd()
     return os.path.join(cwd, "<YOUR_JSON_CONFIG_FILE>")
 ```
+
+### Start to use the codes
+1. Set up your dev env
+   ```shell
+   python -m venv myvenv
+   source myvenv/bin/activate
+   ```
+2. Install requirement libraries 
+    ```shell
+    pip install -r requirements.txt
+    ```
+3. Run the codes
+   ```shell
+   python estimator.py
+   ```
+
 
