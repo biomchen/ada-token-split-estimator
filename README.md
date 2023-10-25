@@ -1,5 +1,7 @@
 # Doc splitting estimator for the Openai embedding model
 
+_under construction_
+
 When applying Openai embedding model to any docs and storage them in vector database, there is a rate limit on token per min (TPM) and response per min (RPM) on all openai models (See below for some examples). 
 
 |Model|TPM|RPM|
@@ -12,7 +14,7 @@ When applying Openai embedding model to any docs and storage them in vector data
 To avoid to hit the rate limit to prevent the embedding operation stalling, here is a simple python code snippets to help estimate how many docs will reach the rate limit of the TPM by apply the binary search algorithm.
 
 #### Note
-You have define your config file and will loaded in the function below:
+You have to define your config file and will loaded in the function below:
 ```python
 def get_config_path():
     cwd = os.getcwd()
