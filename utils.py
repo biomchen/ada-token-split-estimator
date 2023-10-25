@@ -1,6 +1,5 @@
 import os
 import json
-
 from langchain.document_loaders.csv_loader import CSVLoader
 
 def get_config_path():
