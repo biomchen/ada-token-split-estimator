@@ -2,7 +2,7 @@
 
 _under construction_
 
-When applying Openai embedding model to any docs and storage them in vector database, there is a rate limit on token per min (TPM) and response per min (RPM) on all openai models (See below for some examples). 
+When applying Openai embedding model `text-embedding-ada-002` to any textual content and storage them in vector database, there is a rate limit on token per min (TPM) and response per min (RPM) on all openai models (See below for some examples). 
 
 |Model|TPM|RPM|
 |:---:|:--:|:--:|
