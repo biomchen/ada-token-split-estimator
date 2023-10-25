@@ -1,4 +1,5 @@
-# Doc splitting estimator for the Openai embedding model
+# Doc Splitting Estimator 
+For the Openai embedding model
 
 _under construction_
 
