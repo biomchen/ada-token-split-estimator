@@ -1,6 +1,4 @@
 import numpy as np
-from time import sleep
-
 import tiktoken
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import TokenTextSplitter
