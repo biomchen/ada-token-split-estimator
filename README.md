@@ -12,7 +12,7 @@ When applying Openai embedding model `text-embedding-ada-002` to any textual con
 |gpt-4|10,000|200|
 |text-embedding-ada-002|1,000,000|3,000|
 
-To avoid to hit the rate limit to prevent the embedding operation stalling, here is a simple python code snippets to help estimate how many docs will reach the rate limit of the TPM by apply the binary search algorithm.
+To avoid to hit the rate limit to prevent the embedding operation stalling, here is a simple python code snippets to help estimate how many docs will reach the rate limit of the TPM by applying the binary search algorithm.
 
 ### Pre-requisite
 1. Prepare your own documentations in your designated folder
